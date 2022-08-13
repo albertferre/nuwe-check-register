@@ -47,7 +47,6 @@ Para preparar el entorno ejecutar el siguiente comando:
 conda env create -f env.yaml
 conda activate nuwe-check-register
 ```
-```
 
 Para ejecutar los tests ejecutar el siguiente comando:
 
