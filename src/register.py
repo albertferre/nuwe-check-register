@@ -1,7 +1,9 @@
 """This module contains the class Register."""
 
-class Register():
+
+class Register:
     """Class Register"""
+
     values = {
         "ONE HUNDRED": 100.0,
         "TWENTY": 20.0,
@@ -72,7 +74,7 @@ class Register():
         :return: a dictionary with the status and the change
         :rtype: dict
         """
-        difference = round(cash - price,2)
+        difference = round(cash - price, 2)
         available_cash = self.get_total_value(cid)
         print(available_cash, difference)
         if difference == available_cash:
